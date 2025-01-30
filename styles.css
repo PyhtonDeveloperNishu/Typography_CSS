@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 3px solid rgba(0,0,0,0.7);
+    margin-bottom: 9px;
+}
+.data h2{ 
+    font-size: 1.6rem;  
+    font-weight: bold;
+    padding-top:1.1em;
+    padding-bottom: 1em;
+    text-align: center;
+    word-spacing: 1px;
+}
+
+.data img{
+    width: 800px;
+    height: 270px;
+}
+
+.data p,.data_pera{ 
+    font-size:18px;
+    color: gray;
+    
+  
+}
+.iframe_con,.data p,.data_pera{
+    width: 30%;
+    margin:15px auto; 
+
+}
+
+.iframe_con iframe {
+    width: 100%;  /* ✅ Ensuring iframe width matches paragraph */
+    height: 280px;
+}
